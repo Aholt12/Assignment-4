@@ -9,10 +9,10 @@ img {
     padding: 0px 15px 0px 15px;
 }
 
-.main-nav {
+.main_nav {
     text-transform: capitalize;
     text-decoration-color: royalblue;
-    font-size: 100%
+    font-size: 120%;
 }
 
 a:visited {
