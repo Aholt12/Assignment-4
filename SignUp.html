@@ -10,33 +10,67 @@
             display: inline-block;
             margin-left: 600px;
         }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #4CAF50;
+        }
     </style>
 </head>
 
 <body>
-    <a class="nav" href="index.html">Home</a>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="SignUp.html">Sign Up</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="About.html">About</a></li>
+    </ul>
+
     <header>
         <h1>Sign Up</h1>
         <h2 id="header3"> Create an account with us to connect with other students and Flight Instructors!</h2>
     </header>
-        
 
-        <div class="Login">
-            <label>First Name: <input type="text" name="fname" id="fname"></label> <br><br>
-            <label> Last Name: <input type="text" name="lname" id="lname"></label> <br> <br>
-            <label> E-mail: <input type="text" name="email" id="email"></label> <br> <br>
-            <label> User Name: <input type="text" name="uname" id="uname"></label> <br> <br>
-            <label for="password"> Password:</label> <br>
-            <input type="password"> <br> <br>
-            <input type="Submit" value="Create"> <br> <br>
-            
-            <h3 id="header4"> If you already have an account, Sign In!</h3> <br> <br>
-            <label> User Name: <input type="text" name="uname" id="uname"></label> <br> <br>
-            <label for="password"> Password:</label> <br>
-            <input type="password"> <br> <br>
-            <input type="Submit" value="Create"> <br> <br>
 
-        </div>
+    <div class="Login">
+        <label>First Name: <input type="text" name="fname" id="fname"></label> <br><br>
+        <label> Last Name: <input type="text" name="lname" id="lname"></label> <br> <br>
+        <label> E-mail: <input type="text" name="email" id="email"></label> <br> <br>
+        <label> User Name: <input type="text" name="uname" id="uname"></label> <br> <br>
+        <label for="password"> Password:</label> <br>
+        <input type="password"> <br> <br>
+        <input type="Submit" value="Create"> <br> <br>
+
+        <h3 id="header4"> If you already have an account, Sign In!</h3> <br> <br>
+        <label> User Name: <input type="text" name="uname" id="uname"></label> <br> <br>
+        <label for="password"> Password:</label> <br>
+        <input type="password"> <br> <br>
+        <input type="Submit" value="Create"> <br> <br>
+
+    </div>
 
 </body>
 

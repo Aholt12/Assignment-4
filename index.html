@@ -8,11 +8,11 @@
     <style>
         #head1 {
             display: inline-block;
-            margin-left: 650px;
+            margin-left: 400px;
 
         }
 
-        #list1 {
+        #list2 {
             border-style: solid;
             display: inline-block;
             padding: 5px;
@@ -49,15 +49,46 @@
         #plane2 {
             float: right;
         }
+
+        #list1 {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #4CAF50;
+        }
     </style>
 </head>
 
 <body>
-
-    <a class="main_nav" href="contact.html">Contact</a>
-    <a class="main_nav" href="About.html">About</a>
-    <a class="main_nav" href="SignUp.html">Sign Up</a>
-
+    <div>
+        <ul id="list1">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="SignUp.html">Sign Up</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="About.html">About</a></li>
+        </ul>
+    </div>
 
 
     <div>
@@ -67,9 +98,9 @@
     <h2>Here at the Aviation academy, we take the time to teach you everything you need to know to achieve all of your dreams</h2>
 
     <h3> We have different licenses for people who just want to fly for fun, or for those who want to make a full-time career out of it!</h3>
-    <ul id="list1">
-        <li>Private Pilot</li>
-        <li>Commercial Rating</li>
+    <ul id="list2">
+        <li>Private Pilot</li> <br>
+        <li>Commercial Rating</li> <br>
         <li>Flight Instructor</li>
     </ul>
     <section class="section-quote">
